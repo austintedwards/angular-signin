@@ -1,5 +1,5 @@
 
 <h1>GIFS HUR</h1>
 <div ng-repeat="gif in $ctrl.gifs">
-  <div><img src={{gif}} alt=""></div>
+  <div class="gif" ng-click = "$ctrl.clickDelete(gif)"><img src={{gif}} alt=""></div>
 </div>
