@@ -20,6 +20,7 @@
     flex: 1 0 auto;
   }
 
-body > main > footerbar > footer {
-  padding-top: 400px
+
+footer#pagefooter {
+  margin-top: 300px
 }
