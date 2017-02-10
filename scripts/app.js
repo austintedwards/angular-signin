@@ -3,8 +3,8 @@
     'use strict';
 
     angular.module('app', [])
-        .component('repost', {
-            templateUrl: '/scripts/content.html',
+        .component('accidentally', {
+            templateUrl: '/views/content.html',
             controller: controller
         });
 
